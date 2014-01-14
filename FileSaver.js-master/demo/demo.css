@@ -1,0 +1,105 @@
+html {
+	background-color: #DDD;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+/* 	padding: 7px 25px 70px; */
+	background-color: #FFF;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+h2, form {
+	text-align: center;
+}
+form {
+	margin-top: 5px;
+	width: 500px;
+}
+.input {
+/*
+	width: 500px;
+	height: 300px;
+*/
+	margin: 0 auto;
+	display: block;
+}
+section {
+/* 	margin-top: 40px; */
+}
+dt {
+	font-weight: bold;
+	font-size: larger;
+}
+#canvas {
+	cursor: crosshair;
+}
+#canvas, #html {
+	border: 1px solid black;
+}
+label.filename
+{
+	width:250px;
+}
+.filename {
+	text-align: right;
+	width:120px;
+}
+dt:target {
+	background-color: Highlight;
+	color: HighlightText;
+}
+/*
+// Responsive: Mobile
+// --------------------------------------------------
+*/
+/* general */
+@media (max-width: 767px) {
+ul.nav.secondary-nav
+{
+	display: inline;
+}
+}
+
+/* portrait */
+@media (max-width: 767px) and (orientation:portrait) {
+
+}
+
+/* landscape */
+@media (max-width: 767px) and (orientation:landscape) {
+
+}
+
+/*
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+*/
+/* general */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) and (orientation:portrait) {
+    /* portrait-specific styles */
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) and (orientation:landscape) {
+    /* landscape-specific styles */
+
+}
+
+/*
+// Responsive: Large desktop and up
+// --------------------------------------------------
+*/
+@media (min-width: 1200px) {
+
+}
+

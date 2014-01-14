@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US-x-Hixie">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Silly Sleeves - Design Your Own</title>
+<!-- <link rel="stylesheet" href="assets/bootstrap.css" /> -->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/jquery-1.7.min.js"></script>
+<!--<script src="js/modernizr.custom.34982.js"></script>-->
+<script src="js/modernizr.custom.81885.js"></script>
+<script src="js/sketcher.js"></script>
+<script src="js/trigonometry.js"></script>
+<!--<script src="js/design-your-own.js"></script>-->
+</head>
+<body>
+<div class="topbar" style="z-index: 5;">
+      <h3>Create Your Own Silly Sleeves Design!</h3>
+	  <form id="canvas-options">
+	      <ul>
+			  <input type="button" id="canvas-clear" value="Clear"/>
+          </ul>
+          <ul>
+				<input type="submit" value="Save"/>
+          </ul>
+		  <ul>
+            <label style="color:#fff" class="filename">Filename: <input type="text" class="filename" id="canvas-filename" placeholder="Silly-Sleeves-design"/>.png</label>
+          </ul>
+	</form>
+</div>
+<section id="image-demo">
+	<canvas class="input" id="canvas" />
+</section>
+<!--<script type="application/ecmascript" async="" src="https://raw.github.com/eligrey/Blob.js/master/Blob.min.js"/>-->
+<script type="application/ecmascript" async="" src="https://raw.github.com/eligrey/canvas-toBlob.js/master/canvas-toBlob.js"/>
+<script type="application/ecmascript" async="" src="https://raw.github.com/eligrey/FileSaver.js/master/FileSaver.js"/>
+<!--<script type="application/ecmascript" async="" src="https://raw.github.com/eligrey/FileSaver.js/master/demo/demo-brush.js"/>-->
+<script type="application/ecmascript" async="" src="js/design-your-own.js"/>
+</body>
+</html>
